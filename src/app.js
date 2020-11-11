@@ -131,7 +131,7 @@ function initMap() {
     const content = sanitizeHTML`
       <img style="float:left; width:200px; margin-top:30px" src="img/logo_${category}.png">
       <div style="margin-left:220px; margin-bottom:20px;">
-        <h2>${name}</h2><p>${city}</p>
+        <h2>${name}</h2><p>${full_address}</p>
         <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
 		
 		<p><h2><pre class="nebula-code html"><strong><a class="vglnk" href="https://www.google.com/maps/dir/?api=1&amp;destination=${full_address}" target="_blank" rel="nofollow">Get Directions</a></strong></pre></h2></p>
