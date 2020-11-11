@@ -164,7 +164,7 @@ function initMap() {
   const input = document.createElement('input');
   const options = {
     types: ['address'],
-    componentRestrictions: {country: 'gb'},
+    componentRestrictions: {country: 'us, ca'},
   };
 
   card.setAttribute('id', 'pac-card');
