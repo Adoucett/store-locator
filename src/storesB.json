@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_1",
+        "storeid": "1",
         "list_name": "REI",
         "name": "REI Seattle flagship store",
         "address": "222 Yale Ave N",
@@ -37,7 +37,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_2",
+        "storeid": "2",
         "list_name": "REI",
         "name": "REI Berkeley store",
         "address": "1338 San Pablo Ave",
@@ -70,7 +70,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_3",
+        "storeid": "3",
         "list_name": "REI",
         "name": "REI Portland store",
         "address": "1405 NW Johnson St",
@@ -103,7 +103,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_4",
+        "storeid": "4",
         "list_name": "REI",
         "name": "REI Manhattan Beach store",
         "address": "1800 Rosecrans Ave",
@@ -136,7 +136,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_5",
+        "storeid": "5",
         "list_name": "REI",
         "name": "REI Bloomington flagship store",
         "address": "750 W American Blvd",
@@ -169,7 +169,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_6",
+        "storeid": "6",
         "list_name": "REI",
         "name": "REI Anchorage store",
         "address": "1200 W Northern Lights Blvd",
@@ -202,7 +202,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_7",
+        "storeid": "7",
         "list_name": "REI",
         "name": "REI Tustin store",
         "address": "2962 El Camino Real",
@@ -235,7 +235,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_8",
+        "storeid": "8",
         "list_name": "REI",
         "name": "REI Denver flagship store",
         "address": "1416 Platte St",
@@ -268,7 +268,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_9",
+        "storeid": "9",
         "list_name": "REI",
         "name": "REI Bellevue store",
         "address": "410 116th Ave NE",
@@ -300,7 +300,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_10",
+        "storeid": "10",
         "list_name": "REI",
         "name": "REI Salt Lake City store",
         "address": "3285 E 3300 S",
@@ -333,7 +333,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_11",
+        "storeid": "11",
         "list_name": "REI",
         "name": "REI Sacramento store",
         "address": "1790 Expo Pkwy",
@@ -366,7 +366,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_12",
+        "storeid": "12",
         "list_name": "REI",
         "name": "REI Saratoga store",
         "address": "400 El Paseo de Saratoga",
@@ -399,7 +399,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_13",
+        "storeid": "13",
         "list_name": "REI",
         "name": "REI Spokane store",
         "address": "1125 N Monroe St",
@@ -432,7 +432,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_14",
+        "storeid": "14",
         "list_name": "REI",
         "name": "REI Chandler store",
         "address": "870 N 54th St",
@@ -465,7 +465,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_15",
+        "storeid": "15",
         "list_name": "REI",
         "name": "REI Reading store",
         "address": "279 Salem St",
@@ -498,7 +498,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_16",
+        "storeid": "16",
         "list_name": "REI",
         "name": "REI San Diego store",
         "address": "5556 Copley Dr",
@@ -531,7 +531,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_17",
+        "storeid": "17",
         "list_name": "REI",
         "name": "REI Albuquerque store",
         "address": "1550 Mercantile Ave NE",
@@ -564,7 +564,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_18",
+        "storeid": "18",
         "list_name": "REI",
         "name": "REI Austin store",
         "address": "9901 N Capitol of Texas Hwy",
@@ -597,7 +597,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_19",
+        "storeid": "19",
         "list_name": "REI",
         "name": "REI Atlanta store",
         "address": "1800 Northeast Expy NE",
@@ -630,7 +630,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_20",
+        "storeid": "20",
         "list_name": "REI",
         "name": "REI Baileys Crossroads store",
         "address": "3509 Carlin Springs Rd",
@@ -663,7 +663,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_21",
+        "storeid": "21",
         "list_name": "REI",
         "name": "REI Alderwood store",
         "address": "3000 184th St SW",
@@ -696,7 +696,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_22",
+        "storeid": "22",
         "list_name": "REI",
         "name": "REI Tualatin store",
         "address": "7410 SW Bridgeport Rd",
@@ -729,7 +729,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_23",
+        "storeid": "23",
         "list_name": "REI",
         "name": "REI Conshohocken/Plymouth Meeting store",
         "address": "200 W Ridge Pike",
@@ -762,7 +762,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_24",
+        "storeid": "24",
         "list_name": "REI",
         "name": "REI San Carlos store",
         "address": "1119 Industrial Rd",
@@ -795,7 +795,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_25",
+        "storeid": "25",
         "list_name": "REI",
         "name": "REI Northridge store",
         "address": "18605 Devonshire St",
@@ -828,7 +828,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_26",
+        "storeid": "26",
         "list_name": "REI",
         "name": "REI Northbrook store",
         "address": "888 Willow Road",
@@ -861,7 +861,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_27",
+        "storeid": "27",
         "list_name": "REI",
         "name": "REI Cary store",
         "address": "1751 Walnut St",
@@ -894,7 +894,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_28",
+        "storeid": "28",
         "list_name": "REI",
         "name": "REI Roseville store",
         "address": "1955 County Rd B2 W",
@@ -927,7 +927,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_29",
+        "storeid": "29",
         "list_name": "REI",
         "name": "REI Eugene store",
         "address": "306 Lawrence St",
@@ -960,7 +960,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_30",
+        "storeid": "30",
         "list_name": "REI",
         "name": "REI Boulder store",
         "address": "1789 28th St",
@@ -993,7 +993,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_31",
+        "storeid": "31",
         "list_name": "REI",
         "name": "REI Dallas store",
         "address": "5929 E Northwest Hwy",
@@ -1026,7 +1026,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_32",
+        "storeid": "32",
         "list_name": "REI",
         "name": "REI Concord store",
         "address": "1975 Diamond Blvd",
@@ -1059,7 +1059,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_33",
+        "storeid": "33",
         "list_name": "REI",
         "name": "REI Boise store",
         "address": "8300 W Emerald St",
@@ -1092,7 +1092,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_34",
+        "storeid": "34",
         "list_name": "REI",
         "name": "REI Madison store",
         "address": "7483 W Towne Way",
@@ -1125,7 +1125,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_35",
+        "storeid": "35",
         "list_name": "REI",
         "name": "REI Fort Collins store",
         "address": "4025 S College Ave",
@@ -1158,7 +1158,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_36",
+        "storeid": "36",
         "list_name": "REI",
         "name": "REI Lakewood store",
         "address": "5375 S Wadsworth Blvd",
@@ -1191,7 +1191,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_37",
+        "storeid": "37",
         "list_name": "REI",
         "name": "REI Oakbrook Terrace store",
         "address": "17W160 22nd St",
@@ -1224,7 +1224,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_38",
+        "storeid": "38",
         "list_name": "REI",
         "name": "REI Perimeter store",
         "address": "1165 Perimeter Ctr W",
@@ -1257,7 +1257,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_39",
+        "storeid": "39",
         "list_name": "REI",
         "name": "REI Houston store",
         "address": "7538 Westheimer Rd",
@@ -1290,7 +1290,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_40",
+        "storeid": "40",
         "list_name": "REI",
         "name": "REI Paradise Valley store",
         "address": "12634 N Paradise Village Pkwy W",
@@ -1323,7 +1323,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_41",
+        "storeid": "41",
         "list_name": "REI",
         "name": "REI Framingham store",
         "address": "375 Cochituate Rd",
@@ -1356,7 +1356,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_42",
+        "storeid": "42",
         "list_name": "REI",
         "name": "REI Northville store",
         "address": "17559 Haggerty Rd",
@@ -1389,7 +1389,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_43",
+        "storeid": "43",
         "list_name": "REI",
         "name": "REI Brookfield store",
         "address": "13100 W Capitol Dr",
@@ -1422,7 +1422,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_44",
+        "storeid": "44",
         "list_name": "REI",
         "name": "REI Englewood store",
         "address": "9637 E County Line Rd",
@@ -1455,7 +1455,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_45",
+        "storeid": "45",
         "list_name": "REI",
         "name": "REI Timonium store",
         "address": "63 W Aylesbury Rd",
@@ -1488,7 +1488,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_46",
+        "storeid": "46",
         "list_name": "REI",
         "name": "REI Arcadia store",
         "address": "214 N Santa Anita Ave",
@@ -1521,7 +1521,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_47",
+        "storeid": "47",
         "list_name": "REI",
         "name": "REI Brentwood store",
         "address": "261 Franklin Rd",
@@ -1554,7 +1554,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_48",
+        "storeid": "48",
         "list_name": "REI",
         "name": "REI Bellingham store",
         "address": "400 36th St",
@@ -1587,7 +1587,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_49",
+        "storeid": "49",
         "list_name": "REI",
         "name": "REI Troy store",
         "address": "766 E Big Beaver Rd",
@@ -1620,7 +1620,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_50",
+        "storeid": "50",
         "list_name": "REI",
         "name": "REI Reno store",
         "address": "2225 Harvard Way",
@@ -1653,7 +1653,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_51",
+        "storeid": "51",
         "list_name": "REI",
         "name": "REI Colorado Springs store",
         "address": "1376 E Woodmen Rd",
@@ -1686,7 +1686,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_52",
+        "storeid": "52",
         "list_name": "REI",
         "name": "REI Tacoma store",
         "address": "3825 S Steele St",
@@ -1719,7 +1719,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_53",
+        "storeid": "53",
         "list_name": "REI",
         "name": "REI Grand Junction store",
         "address": "644 North Ave",
@@ -1752,7 +1752,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_54",
+        "storeid": "54",
         "list_name": "REI",
         "name": "REI Fremont store",
         "address": "43962 Fremont Blvd",
@@ -1785,7 +1785,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_55",
+        "storeid": "55",
         "list_name": "REI",
         "name": "REI Missoula store",
         "address": "3275 N Reserve St",
@@ -1818,7 +1818,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_56",
+        "storeid": "56",
         "list_name": "REI",
         "name": "REI St. Louis store",
         "address": "1703 S Brentwood Blvd",
@@ -1851,7 +1851,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_57",
+        "storeid": "57",
         "list_name": "REI",
         "name": "REI Roseville store",
         "address": "1148 Galleria Blvd",
@@ -1884,7 +1884,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_58",
+        "storeid": "58",
         "list_name": "REI",
         "name": "REI Kennewick store",
         "address": "129 N Ely St",
@@ -1917,7 +1917,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_59",
+        "storeid": "59",
         "list_name": "REI",
         "name": "REI Corte Madera store",
         "address": "213 Corte Madera Town Ctr",
@@ -1950,7 +1950,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_60",
+        "storeid": "60",
         "list_name": "REI",
         "name": "REI Santa Rosa store",
         "address": "2715 Santa Rosa Ave",
@@ -1983,7 +1983,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_61",
+        "storeid": "61",
         "list_name": "REI",
         "name": "REI Southcenter/Tukwila store",
         "address": "240 Andover Park W",
@@ -2016,7 +2016,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_62",
+        "storeid": "62",
         "list_name": "REI",
         "name": "REI Buford store",
         "address": "1600 Mall of Georgia Blvd",
@@ -2049,7 +2049,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_63",
+        "storeid": "63",
         "list_name": "REI",
         "name": "REI Boston store",
         "address": "401 Park Dr",
@@ -2082,7 +2082,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_64",
+        "storeid": "64",
         "list_name": "REI",
         "name": "REI Sandy store",
         "address": "230 W 10600 S",
@@ -2115,7 +2115,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_65",
+        "storeid": "65",
         "list_name": "REI",
         "name": "REI Hingham store",
         "address": "98 Old Derby St",
@@ -2148,7 +2148,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_66",
+        "storeid": "66",
         "list_name": "REI",
         "name": "REI San Francisco store",
         "address": "840 Brannan St",
@@ -2181,7 +2181,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_67",
+        "storeid": "67",
         "list_name": "REI",
         "name": "REI Fairfax store",
         "address": "11950 Grand Commons Ave",
@@ -2214,7 +2214,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_68",
+        "storeid": "68",
         "list_name": "REI",
         "name": "REI Durham store",
         "address": "6911 Fayetteville Rd",
@@ -2247,7 +2247,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_69",
+        "storeid": "69",
         "list_name": "REI",
         "name": "REI Folsom store",
         "address": "2425 Iron Pt Rd",
@@ -2280,7 +2280,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_70",
+        "storeid": "70",
         "list_name": "REI",
         "name": "REI Henderson store",
         "address": "2220 Village Walk Dr",
@@ -2313,7 +2313,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_71",
+        "storeid": "71",
         "list_name": "REI",
         "name": "REI Huntington Beach store",
         "address": "7777 Edinger Ave",
@@ -2346,7 +2346,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_72",
+        "storeid": "72",
         "list_name": "REI",
         "name": "REI Hillsboro store",
         "address": "2235 NW Allie Ave",
@@ -2379,7 +2379,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_73",
+        "storeid": "73",
         "list_name": "REI",
         "name": "REI Encinitas store",
         "address": "1590 Leucadia Blvd",
@@ -2412,7 +2412,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_74",
+        "storeid": "74",
         "list_name": "REI",
         "name": "REI Rockville store",
         "address": "910 Rose Avenue",
@@ -2445,7 +2445,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_75",
+        "storeid": "75",
         "list_name": "REI",
         "name": "REI Houston-Willowbrook store",
         "address": "17717 Tomball Pkwy",
@@ -2478,7 +2478,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_76",
+        "storeid": "76",
         "list_name": "REI",
         "name": "REI Rancho Cucamonga store",
         "address": "12218 Foothill Blvd",
@@ -2511,7 +2511,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_77",
+        "storeid": "77",
         "list_name": "REI",
         "name": "REI Marlton store",
         "address": "501 Rte 73 South",
@@ -2544,7 +2544,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_78",
+        "storeid": "78",
         "list_name": "REI",
         "name": "REI Plano store",
         "address": "2424 Preston Rd",
@@ -2577,7 +2577,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_79",
+        "storeid": "79",
         "list_name": "REI",
         "name": "REI Bend store",
         "address": "380 Powerhouse Dr",
@@ -2610,7 +2610,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_80",
+        "storeid": "80",
         "list_name": "REI",
         "name": "REI Raleigh store",
         "address": "4291 The Circle at North Hills",
@@ -2643,7 +2643,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_81",
+        "storeid": "81",
         "list_name": "REI",
         "name": "REI Pittsburgh store",
         "address": "412 S 27th St",
@@ -2676,7 +2676,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_82",
+        "storeid": "82",
         "list_name": "REI",
         "name": "REI Clackamas store",
         "address": "12160 SE 82nd Ave",
@@ -2709,7 +2709,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_83",
+        "storeid": "83",
         "list_name": "REI",
         "name": "REI Austin Downtown store",
         "address": "601 N Lamar Blvd",
@@ -2742,7 +2742,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_84",
+        "storeid": "84",
         "list_name": "REI",
         "name": "REI Mountain View store",
         "address": "2450 Charleston Rd",
@@ -2775,7 +2775,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_85",
+        "storeid": "85",
         "list_name": "REI",
         "name": "REI West Hartford store",
         "address": "71 Raymond Road",
@@ -2808,7 +2808,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_86",
+        "storeid": "86",
         "list_name": "REI",
         "name": "REI Pineville store",
         "address": "11067 Carolina Place Parkway",
@@ -2841,7 +2841,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_87",
+        "storeid": "87",
         "list_name": "REI",
         "name": "REI Santa Monica store",
         "address": "402 Santa Monica Blvd",
@@ -2874,7 +2874,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_88",
+        "storeid": "88",
         "list_name": "REI",
         "name": "REI Greensboro store",
         "address": "3334 West Friendly Ave",
@@ -2907,7 +2907,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_89",
+        "storeid": "89",
         "list_name": "REI",
         "name": "REI Maple Grove store",
         "address": "11581 Fountains Drive",
@@ -2940,7 +2940,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_90",
+        "storeid": "90",
         "list_name": "REI",
         "name": "REI Cranston store",
         "address": "22 Chapel View Blvd",
@@ -2973,7 +2973,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_91",
+        "storeid": "91",
         "list_name": "REI",
         "name": "REI Fresno store",
         "address": "7810 N Blackstone Ave",
@@ -3006,7 +3006,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_92",
+        "storeid": "92",
         "list_name": "REI",
         "name": "REI Marina store",
         "address": "145 General Stilwell Dr",
@@ -3039,7 +3039,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_93",
+        "storeid": "93",
         "list_name": "REI",
         "name": "REI Santa Fe store",
         "address": "500 Market St",
@@ -3072,7 +3072,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_94",
+        "storeid": "94",
         "list_name": "REI",
         "name": "REI Charlotte store",
         "address": "9755 Northlake Centre Pky",
@@ -3105,7 +3105,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_95",
+        "storeid": "95",
         "list_name": "REI",
         "name": "REI Issaquah store",
         "address": "735 Northwest Gilman Boulevard",
@@ -3138,7 +3138,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_96",
+        "storeid": "96",
         "list_name": "REI",
         "name": "REI Asheville store",
         "address": "31 Schenck Parkway",
@@ -3171,7 +3171,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_97",
+        "storeid": "97",
         "list_name": "REI",
         "name": "REI Schaumburg store",
         "address": "1209 East Golf Road",
@@ -3204,7 +3204,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_98",
+        "storeid": "98",
         "list_name": "REI",
         "name": "REI Stockton store",
         "address": "5757 Pacific Ave",
@@ -3237,7 +3237,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_99",
+        "storeid": "99",
         "list_name": "REI",
         "name": "REI Westminster store",
         "address": "14696 Delaware St",
@@ -3270,7 +3270,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_100",
+        "storeid": "100",
         "list_name": "REI",
         "name": "REI Round Rock store",
         "address": "201 University Oaks Blvd",
@@ -3303,7 +3303,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_101",
+        "storeid": "101",
         "list_name": "REI",
         "name": "REI Lincoln Park store",
         "address": "1466 N Halsted St",
@@ -3336,7 +3336,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_102",
+        "storeid": "102",
         "list_name": "REI",
         "name": "REI Ann Arbor store",
         "address": "970 W Eisenhower Pkwy",
@@ -3369,7 +3369,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_103",
+        "storeid": "103",
         "list_name": "REI",
         "name": "REI Kennesaw store",
         "address": "740 Barrett Parkway",
@@ -3402,7 +3402,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_104",
+        "storeid": "104",
         "list_name": "REI",
         "name": "REI Richmond store",
         "address": "2020 Old Brick Rd",
@@ -3435,7 +3435,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_105",
+        "storeid": "105",
         "list_name": "REI",
         "name": "REI Pittsburgh Settlers Ridge store",
         "address": "600 Settlers Ridge Center Drive",
@@ -3467,7 +3467,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_106",
+        "storeid": "106",
         "list_name": "REI",
         "name": "REI Tucson store",
         "address": "160 W Wetmore Rd",
@@ -3500,7 +3500,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_107",
+        "storeid": "107",
         "list_name": "REI",
         "name": "REI San Antonio store",
         "address": "11745 IH-10 West",
@@ -3533,7 +3533,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_108",
+        "storeid": "108",
         "list_name": "REI",
         "name": "REI Oxnard store",
         "address": "2700 Seaglass Way",
@@ -3566,7 +3566,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_109",
+        "storeid": "109",
         "list_name": "REI",
         "name": "REI Las Vegas - Boca Park store",
         "address": "710 S Rampart Blvd",
@@ -3599,7 +3599,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_110",
+        "storeid": "110",
         "list_name": "REI",
         "name": "REI East Hanover store",
         "address": "280 NJ-10",
@@ -3632,7 +3632,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_111",
+        "storeid": "111",
         "list_name": "REI",
         "name": "REI Santa Barbara store",
         "address": "321 Anacapa St",
@@ -3665,7 +3665,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_112",
+        "storeid": "112",
         "list_name": "REI",
         "name": "REI Norwalk store",
         "address": "189 Connecticut Ave",
@@ -3698,7 +3698,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_113",
+        "storeid": "113",
         "list_name": "REI",
         "name": "REI Bozeman store",
         "address": "2220 Tschache St",
@@ -3731,7 +3731,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_114",
+        "storeid": "114",
         "list_name": "REI",
         "name": "REI Columbia store",
         "address": "6100 Dobbin Rd",
@@ -3764,7 +3764,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_115",
+        "storeid": "115",
         "list_name": "REI",
         "name": "REI Carle Place store",
         "address": "144 Glen Cove Rd",
@@ -3797,7 +3797,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_116",
+        "storeid": "116",
         "list_name": "REI",
         "name": "REI Yonkers store",
         "address": "49 Fitzgerald St",
@@ -3830,7 +3830,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_117",
+        "storeid": "117",
         "list_name": "REI",
         "name": "REI Paramus store",
         "address": "2200 Bergen Town Center",
@@ -3863,7 +3863,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_118",
+        "storeid": "118",
         "list_name": "REI",
         "name": "REI Olympia store",
         "address": "625 Black Lake Blvd SW",
@@ -3896,7 +3896,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_119",
+        "storeid": "119",
         "list_name": "REI",
         "name": "REI SoHo flagship store",
         "address": "303 Lafayette St",
@@ -3929,7 +3929,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_120",
+        "storeid": "120",
         "list_name": "REI",
         "name": "REI Dublin store",
         "address": "7099 Amador Plaza Road",
@@ -3962,7 +3962,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_121",
+        "storeid": "121",
         "list_name": "REI",
         "name": "REI Woodbridge store",
         "address": "15200 Potomac Town Place",
@@ -3995,7 +3995,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_122",
+        "storeid": "122",
         "list_name": "REI",
         "name": "REI Greenville store",
         "address": "1140 Woodruff Rd.",
@@ -4028,7 +4028,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_123",
+        "storeid": "123",
         "list_name": "REI",
         "name": "REI Castleton store",
         "address": "8490 Castleton Corner Dr",
@@ -4061,7 +4061,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_124",
+        "storeid": "124",
         "list_name": "REI",
         "name": "REI Medford store",
         "address": "85 Rossanley Drive",
@@ -4094,7 +4094,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_125",
+        "storeid": "125",
         "list_name": "REI",
         "name": "REI Woodland Hills store",
         "address": "6220 Topanga Canyon Blvd",
@@ -4127,7 +4127,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_126",
+        "storeid": "126",
         "list_name": "REI",
         "name": "REI Cincinnati store",
         "address": "2643 Edmondson Rd",
@@ -4160,7 +4160,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_127",
+        "storeid": "127",
         "list_name": "REI",
         "name": "REI Jacksonville store",
         "address": "4862 Big Island Drive",
@@ -4193,7 +4193,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_128",
+        "storeid": "128",
         "list_name": "REI",
         "name": "REI Overland Park store",
         "address": "6281 W 135 St",
@@ -4226,7 +4226,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_129",
+        "storeid": "129",
         "list_name": "REI",
         "name": "REI Tysons store",
         "address": "8209 Watson Street",
@@ -4259,7 +4259,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_130",
+        "storeid": "130",
         "list_name": "REI",
         "name": "REI Silverdale store",
         "address": "10903 NW Myhre Pl",
@@ -4292,7 +4292,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_131",
+        "storeid": "131",
         "list_name": "REI",
         "name": "REI Columbus-Easton store",
         "address": "4150 Worth Ave",
@@ -4325,7 +4325,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_132",
+        "storeid": "132",
         "list_name": "REI",
         "name": "REI Flagstaff store",
         "address": "323 South Windsor Lane",
@@ -4358,7 +4358,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_133",
+        "storeid": "133",
         "list_name": "REI",
         "name": "REI Knoxville store",
         "address": "6700 Papermill Drive",
@@ -4391,7 +4391,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_134",
+        "storeid": "134",
         "list_name": "REI",
         "name": "REI Southlake store",
         "address": "1011 East Southlake Blvd",
@@ -4424,7 +4424,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_135",
+        "storeid": "135",
         "list_name": "REI",
         "name": "REI Columbus-Dublin store",
         "address": "6424 Sawmill Road",
@@ -4457,7 +4457,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_136",
+        "storeid": "136",
         "list_name": "REI",
         "name": "REI Salem-Keizer store",
         "address": "6035 Ulali Dr NE",
@@ -4490,7 +4490,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_137",
+        "storeid": "137",
         "list_name": "REI",
         "name": "REI Fairbanks store",
         "address": "19 College Rd",
@@ -4523,7 +4523,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_138",
+        "storeid": "138",
         "list_name": "REI",
         "name": "REI Princeton store",
         "address": "3371 US Highway 1",
@@ -4556,7 +4556,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_139",
+        "storeid": "139",
         "list_name": "REI",
         "name": "REI King of Prussia store",
         "address": "161 Town Square Pl",
@@ -4589,7 +4589,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_140",
+        "storeid": "140",
         "list_name": "REI",
         "name": "REI Alpharetta store",
         "address": "7531 North Point Pkwy",
@@ -4622,7 +4622,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_141",
+        "storeid": "141",
         "list_name": "REI",
         "name": "REI Christiana store",
         "address": "2300 Fashion Center Blvd",
@@ -4654,7 +4654,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_142",
+        "storeid": "142",
         "list_name": "REI",
         "name": "REI Virginia Beach store",
         "address": "350 Independence Blvd",
@@ -4686,7 +4686,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_143",
+        "storeid": "143",
         "list_name": "REI",
         "name": "REI West Des Moines store",
         "address": "5901 Mills Civic Pkwy",
@@ -4719,7 +4719,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_144",
+        "storeid": "144",
         "list_name": "REI",
         "name": "REI Washington DC flagship store",
         "address": "201 M Street NE",
@@ -4751,7 +4751,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_145",
+        "storeid": "145",
         "list_name": "REI",
         "name": "REI Houston-Baybrook store",
         "address": "18750 Gulf Freeway",
@@ -4784,7 +4784,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_146",
+        "storeid": "146",
         "list_name": "REI",
         "name": "REI Winter Park store",
         "address": "430 N Orlando Ave",
@@ -4817,7 +4817,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_147",
+        "storeid": "147",
         "list_name": "REI",
         "name": "REI Fort Worth store",
         "address": "5924 Convair Drive",
@@ -4850,7 +4850,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_148",
+        "storeid": "148",
         "list_name": "REI",
         "name": "REI Milford store",
         "address": "1587 Boston Post Rd",
@@ -4883,7 +4883,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_149",
+        "storeid": "149",
         "list_name": "REI",
         "name": "REI Dillon store",
         "address": "306 Dillon Ridge Rd",
@@ -4916,7 +4916,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "REI_150",
+        "storeid": "150",
         "list_name": "REI",
         "name": "REI Katy Climb-opening July 15",
         "address": "25410 Katy Mills Parkway",
