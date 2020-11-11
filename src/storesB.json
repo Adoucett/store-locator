@@ -19,8 +19,8 @@
         "longitude_roof": "-71.393716",
         "category": "Retail",
         "country": "United States",
-        "county": "Middlesex County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -33,7 +33,7 @@
     {
       "type": "Feature",
       "properties": {
-        "storeid": "15",
+        "storeid": 15,
         "list_name": "REI",
         "name": "Reading store",
         "address": "279 Salem St",
@@ -48,8 +48,8 @@
         "longitude_roof": "-71.0870054",
         "category": "Retail",
         "country": "United States",
-        "county": "Middlesex County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -77,8 +77,8 @@
         "longitude_roof": "-71.1023575",
         "category": "Retail",
         "country": "United States",
-        "county": "Suffolk County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 8pm Sunday 11am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 8pm Sunday 11am - 6pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -106,8 +106,8 @@
         "longitude_roof": "-71.459434",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Providence County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 8pm Sunday 11am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 8pm Sunday 11am - 6pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -135,8 +135,8 @@
         "longitude_roof": "-72.7392278",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Hartford County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -164,8 +164,8 @@
         "longitude_roof": "-73.0273788",
         "category": "Retail",
         "country": "United States",
-        "county": "New Haven County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 6pm",
+        "curbside": "Weekends Only"
       },
       "geometry": {
         "type": "Point",
@@ -193,8 +193,8 @@
         "longitude_roof": "-74.0598207",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Bergen County",
-        "hours": "Monday - Friday 10am - 9:30pm Saturday 10am - 9:30pm Sunday Closed"
+        "hours": "Monday - Friday 10am - 9:30pm Saturday 10am - 9:30pm Sunday Closed",
+        "curbside": "Weekends Only"
       },
       "geometry": {
         "type": "Point",
@@ -222,8 +222,8 @@
         "longitude_roof": "-74.3695009",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Morris County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 7pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 7pm",
+        "curbside": "Weekends Only"
       },
       "geometry": {
         "type": "Point",
@@ -251,8 +251,8 @@
         "longitude_roof": "-74.9231768",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Burlington County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 6pm",
+        "curbside": "Weekends Only"
       },
       "geometry": {
         "type": "Point",
@@ -280,8 +280,8 @@
         "longitude_roof": "-74.685772",
         "category": "Retail",
         "country": "United States",
-        "county": "Mercer County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 7pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 7pm",
+        "curbside": "Weekends Only"
       },
       "geometry": {
         "type": "Point",
@@ -309,8 +309,8 @@
         "longitude_roof": "-73.9952165",
         "category": "Retail",
         "country": "United States",
-        "county": "New York County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 8pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 8pm",
+        "curbside": "Weekends Only"
       },
       "geometry": {
         "type": "Point",
@@ -338,8 +338,8 @@
         "longitude_roof": "-73.8567337",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Westchester County",
-        "hours": "Monday - Friday 10am - 9:30pm Saturday 10am - 9:30pm Sunday 11am - 7pm"
+        "hours": "Monday - Friday 10am - 9:30pm Saturday 10am - 9:30pm Sunday 11am - 7pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -367,8 +367,8 @@
         "longitude_roof": "-73.6178769",
         "category": "Retail",
         "country": "United States",
-        "county": "Nassau County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -396,8 +396,8 @@
         "longitude_roof": "-79.9660099",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Allegheny County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 9am - 9pm Sunday 11am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 9am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -425,7 +425,8 @@
         "longitude_roof": "-77.0029318",
         "category": "Sporting Goods",
         "country": "United States",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -453,8 +454,8 @@
         "longitude_roof": "-77.1159286",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Montgomery County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -482,8 +483,8 @@
         "longitude_roof": "-77.358343",
         "category": "Retail",
         "country": "United States",
-        "county": "Fairfax County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -511,8 +512,8 @@
         "longitude_roof": "-77.1231968",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Fairfax County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -540,8 +541,8 @@
         "longitude_roof": "-77.2876185",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Prince William County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -569,8 +570,8 @@
         "longitude_roof": "-77.597209",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Henrico County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -598,8 +599,8 @@
         "longitude_roof": "-78.64218",
         "category": "Retail",
         "country": "United States",
-        "county": "Wake County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -627,8 +628,8 @@
         "longitude_roof": "-78.9360895",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Durham County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
       },
       "geometry": {
         "type": "Point",
@@ -656,8 +657,8 @@
         "longitude_roof": "-82.9077214",
         "category": "Sporting Goods",
         "country": "United States",
-        "county": "Franklin County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
+        "curbside": "Weekends Only"
       },
       "geometry": {
         "type": "Point",
@@ -685,8 +686,8 @@
         "longitude_roof": "-83.0902988",
         "category": "Retail",
         "country": "United States",
-        "county": "Franklin County",
-        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 6pm"
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 6pm",
+        "curbside": "Weekends Only"
       },
       "geometry": {
         "type": "Point",

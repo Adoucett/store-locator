@@ -125,6 +125,7 @@ function initMap() {
     const city = event.feature.getProperty('city');
     const hours = event.feature.getProperty('hours');
     const phone = event.feature.getProperty('phone');
+	const curbside = event.feature.getProperty('curbside');
 	const full_address = event.feature.getProperty('full_address')
     const position = event.feature.getGeometry().get();
 	const address = event.feature.getProperty('address');
@@ -133,6 +134,7 @@ function initMap() {
       <div style="margin-left:220px; margin-bottom:20px;">
         <h2>${name}</h2><p>${full_address}</p>
         <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
+		<br/><b>Curbside Service Avalable?: </b> ${curbside}</p>
 		
 		<p><h2><pre class="nebula-code html"><strong><a class="vglnk" href="https://www.google.com/maps/dir/?api=1&amp;destination=${full_address}" target="_blank" rel="nofollow">Get Directions</a></strong></pre></h2></p>
 		
