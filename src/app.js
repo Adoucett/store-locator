@@ -250,7 +250,7 @@ async function calculateDistances(data, origin) {
           const distances = [];
           const results = response.rows[0].elements;
           for (let j = 0; j < results.length; j++) {
-			  while (j < 25) {
+			
             const element = results[j];
             const distanceText = element.distance.text;
             const distanceVal = element.distance.value;
@@ -261,7 +261,7 @@ async function calculateDistances(data, origin) {
             };
             distances.push(distanceObject);
           }
-		  }
+		  
 
           resolve(distances);
         }
