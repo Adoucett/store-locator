@@ -96,7 +96,7 @@ function sanitizeHTML(strings) {
 function initMap() {
   // Create the map.
   const map = new google.maps.Map(document.getElementById('map'), {
-    mapId: "21c7a039bcddf093",
+    mapId: "521e2f7e243e212c",
 	zoom: 4.5,
     center: {lat: 39.69, lng: -103.48}
     // styles: mapStyle,
@@ -250,6 +250,7 @@ async function calculateDistances(data, origin) {
           const distances = [];
           const results = response.rows[0].elements;
           for (let j = 0; j < results.length; j++) {
+			  while (j < 25) {
             const element = results[j];
             const distanceText = element.distance.text;
             const distanceVal = element.distance.value;
@@ -260,6 +261,7 @@ async function calculateDistances(data, origin) {
             };
             distances.push(distanceObject);
           }
+		  }
 
           resolve(distances);
         }
