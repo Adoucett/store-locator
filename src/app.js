@@ -102,11 +102,6 @@ function initMap() {
     // styles: mapStyle,
   });
 
-///
-
-
-
-////
 
   // Load the stores GeoJSON onto the map.
   map.data.loadGeoJson('storesB.json', {idPropertyName: 'storeid'});
