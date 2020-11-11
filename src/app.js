@@ -281,7 +281,7 @@ async function calculateDistances(data, origin) {
   const distancesList = await getDistanceMatrix(service, {
     origins: [origin],
     destinations: destinations,
-    travelMode: 'DRIVING'
+    travelMode: 'DRIVING',
      unitSystem: google.maps.UnitSystem.IMPERIAL,
   });
 
