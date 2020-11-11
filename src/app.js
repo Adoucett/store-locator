@@ -136,7 +136,7 @@ function initMap() {
 		
 		<p><h2><pre class="nebula-code html"><strong><a class="vglnk" href="https://www.google.com/maps/dir/?api=1&amp;destination=${full_address}" target="_blank" rel="nofollow">Get Directions</a></strong></pre></h2></p>
 		
-        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=400x200&location=${address}&key=${apiKey}"></p>
+        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=400x200&location=${full_address}&key=${apiKey}"></p>
 		
 		
 		
