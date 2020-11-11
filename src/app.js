@@ -164,7 +164,7 @@ function initMap() {
   const input = document.createElement('input');
   const options = {
     types: ['address'],			
-    componentRestrictions: {country: 'usa'},
+   // componentRestrictions: {country: 'usa'},
   };
 
   card.setAttribute('id', 'pac-card');
@@ -208,7 +208,7 @@ function initMap() {
     // Recenter the map to the selected address
     originLocation = place.geometry.location;
     map.setCenter(originLocation);
-    map.setZoom(9);
+    map.setZoom(10);
     console.log(place);
 
     originMarker.setPosition(originLocation);
