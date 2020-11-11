@@ -125,6 +125,7 @@ function initMap() {
     const city = event.feature.getProperty('city');
     const hours = event.feature.getProperty('hours');
     const phone = event.feature.getProperty('phone');
+	const full_address = event.feature.getProperty('full_address')
     const position = event.feature.getGeometry().get();
 	const address = event.feature.getProperty('address');
     const content = sanitizeHTML`
@@ -133,6 +134,9 @@ function initMap() {
         <h2>${name}</h2><p>${city}</p>
         <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
         <p><img src="https://maps.googleapis.com/maps/api/streetview?size=400x200&location=${address}&key=${apiKey}"></p>
+		<p><pre class="nebula-code html"><strong><a class="vglnk" href="https://www.google.com/maps/dir/?api=1&amp;destination=${full_address}" rel="nofollow">Get Directions</a></strong></pre></p>
+		
+		
 	
       </div>	
 	  
