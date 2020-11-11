@@ -137,7 +137,7 @@ function initMap() {
   map.data.addListener('click', (event) => {
     const category = event.feature.getProperty('category');
     const name = event.feature.getProperty('name');
-    const a = event.feature.getProperty('description');
+    const city = event.feature.getProperty('city');
     const hours = event.feature.getProperty('hours');
     const phone = event.feature.getProperty('phone');
     const position = event.feature.getGeometry().get();
@@ -145,7 +145,7 @@ function initMap() {
     const content = sanitizeHTML`
       <img style="float:left; width:200px; margin-top:30px" src="img/logo_${category}.png">
       <div style="margin-left:220px; margin-bottom:20px;">
-        <h2>${name}</h2><p>${description}</p>
+        <h2>${name}</h2><p>${city}</p>
         <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
         <p><img src="https://maps.googleapis.com/maps/api/streetview?size=400x300&location=${address}&key=${apiKey}"></p>
 	
@@ -284,7 +284,7 @@ async function calculateDistances(data, origin) {
   const distancesList = await getDistanceMatrix(service, {
     origins: [origin],
     destinations: destinations,
-    travelMode: 'DRIVING',
+    travelMode: 'DRIVING'
     // unitSystem: google.maps.UnitSystem.METRIC,
   });
 
