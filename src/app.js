@@ -137,8 +137,11 @@ function initMap() {
   map.data.addListener('click', (event) => {
     const category = event.feature.getProperty('category');
     const name = event.feature.getProperty('name');
-    const description = event.feature.getProperty('description');
+    const address = event.feature.getProperty('description');
     const hours = event.feature.getProperty('hours');
+	
+	
+
     const phone = event.feature.getProperty('phone');
     const position = event.feature.getGeometry().get();
     const content = sanitizeHTML`
@@ -146,7 +149,7 @@ function initMap() {
       <div style="margin-left:220px; margin-bottom:20px;">
         <h2>${name}</h2><p>${description}</p>
         <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
-        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=350x120&location=${position.lat()},${position.lng()}&key=${apiKey}"></p>
+        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=350x120&location=${address,city,state,zip_code}&key=${apiKey}"></p>
       </div>
       `;
 
