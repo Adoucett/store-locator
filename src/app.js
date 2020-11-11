@@ -110,7 +110,7 @@ function initMap() {
     return {
       icon: {
         url: `img/icon_${feature.getProperty('category')}.png`,
-        scaledSize: new google.maps.Size(64, 64),
+        scaledSize: new google.maps.Size(70, 70),
       },
     };
   });
@@ -210,7 +210,7 @@ function initMap() {
     // Recenter the map to the selected address
     originLocation = place.geometry.location;
     map.setCenter(originLocation);
-    map.setZoom(10);
+    map.setZoom(9);
     console.log(place);
 
     originMarker.setPosition(originLocation);
