@@ -141,14 +141,15 @@ function initMap() {
     const hours = event.feature.getProperty('hours');
     const phone = event.feature.getProperty('phone');
     const position = event.feature.getGeometry().get();
+	const address = event.feature.getProperty('address');
     const content = sanitizeHTML`
       <img style="float:left; width:200px; margin-top:30px" src="img/logo_${category}.png">
       <div style="margin-left:220px; margin-bottom:20px;">
         <h2>${name}</h2><p>${description}</p>
         <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
-        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=400x300&location=${position.lat()},${position.lng()}&key=${apiKey}"></p>
+        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=400x300&location=${address}&key=${apiKey}"></p>
 	
-      </div>
+      </div>	
 	  
 	  
       `;
@@ -284,7 +285,7 @@ async function calculateDistances(data, origin) {
     origins: [origin],
     destinations: destinations,
     travelMode: 'DRIVING',
-    unitSystem: google.maps.UnitSystem.METRIC,
+    // unitSystem: google.maps.UnitSystem.METRIC,
   });
 
   distancesList.sort((first, second) => {
