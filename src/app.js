@@ -133,8 +133,11 @@ function initMap() {
       <div style="margin-left:220px; margin-bottom:20px;">
         <h2>${name}</h2><p>${city}</p>
         <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
-        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=400x200&location=${address}&key=${apiKey}"></p>
+		
 		<p><pre class="nebula-code html"><strong><a class="vglnk" href="https://www.google.com/maps/dir/?api=1&amp;destination=${full_address}" rel="nofollow">Get Directions</a></strong></pre></p>
+		
+        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=400x200&location=${address}&key=${apiKey}"></p>
+		
 		
 		
 	
