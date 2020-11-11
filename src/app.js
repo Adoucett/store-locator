@@ -137,11 +137,8 @@ function initMap() {
   map.data.addListener('click', (event) => {
     const category = event.feature.getProperty('category');
     const name = event.feature.getProperty('name');
-    const address = event.feature.getProperty('description');
+    const a = event.feature.getProperty('description');
     const hours = event.feature.getProperty('hours');
-	
-	
-
     const phone = event.feature.getProperty('phone');
     const position = event.feature.getGeometry().get();
     const content = sanitizeHTML`
@@ -149,15 +146,22 @@ function initMap() {
       <div style="margin-left:220px; margin-bottom:20px;">
         <h2>${name}</h2><p>${description}</p>
         <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
-        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=350x120&location=${address,city,state,zip_code}&key=${apiKey}"></p>
+        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=350x120&location=event.feature.getProperty('address')&key=${apiKey}"></p>
+	
       </div>
+	  
+	  
       `;
+	  
+	  //  ${position.lat()},${position.lng()}
+	  //  
 
     infoWindow.setContent(content);
     infoWindow.setPosition(position);
     infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
     infoWindow.open(map);
   });
+
 
   // Build and add the search bar
   const card = document.createElement('div');
