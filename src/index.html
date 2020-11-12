@@ -99,6 +99,24 @@
 <body>
   <!-- The div to hold the map -->
   <div id="map"></div>
+  
+  
+  <div class="mapWrap">
+ 
+  <div class="investCast">
+
+    <select id="status" onchange="filterMarkers(this.value);">  
+        <option value="">Selected the status</option>
+        <option value="REVIEWED">REVIEWED</option>
+        <option value="AUTOMATIC">AUTOMATIC</option>
+        <option value="PUBLISHED">PUBLISHED</option>
+        </select>
+
+  </div>
+</div>
+
+<div id="map"></div>
+  
 
   <script src="app.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQQXo9MNHA3vlAPc7s8-LNLRb4kbNm-24&libraries=places&v=beta&map_ids=521e2f7e243e212c&callback=initMap">
