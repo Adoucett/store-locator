@@ -108,23 +108,10 @@
 <!-- Attempting to add filter to HTML-->
   <div class="mapWrap">
  
-  <div class="investCast" style="text-align: center,">
-
-    <select id="status" onchange="filterMarkers(this.value);"
-	style="
-    width: 302px;
-    height: 42px;
-    color: black;
-    background-color:#AEE5B9;
-    font:22px Roboto; 
-
-	"
-	>  
-	
-</div>
 
 <h3>Filter by Type:</h3>
-<p><label class="container"> 🚲 Rentals <input type="checkbox" checked="checked" /> <span class="checkmark"></span></label><label class="container"></label><label class="container">🛒 Sales <input type="checkbox" /> <span class="checkmark"></span>&nbsp;&nbsp;</label> <label class="container">🛠️ Service <input type="checkbox" /> <span class="checkmark"></span> </label></p>
+<p><label class="container" onchange="filterMarkers(this.value);">
+ <label class="container">🚲 Rentals <input type="checkbox" checked="checked" /> <span class="checkmark"></span></label><label class="container"></label><label class="container">🛒 Sales <input type="checkbox" /> <span class="checkmark"></span>&nbsp;&nbsp;</label> <label class="container">🛠️ Service <input type="checkbox" /> <span class="checkmark"></span> </label></label></p>
 
 
  </div>
