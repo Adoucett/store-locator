@@ -131,7 +131,7 @@ function initMap() {
     const position = event.feature.getGeometry().get();
 	const address = event.feature.getProperty('address');
     const content = sanitizeHTML`
-      <img style="float:left; width:200px; margin-top:30px" src="img/logo_${category}.png">
+      <img style="float:left; width:200px; margin-top:20px" src="img/logo_${category}.png">
       <div style="margin-left:220px; margin-bottom:20px;">
         <h2>${name}</h2><p>${full_address}</p>
         <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
@@ -139,7 +139,7 @@ function initMap() {
 		
 		<p><h2><pre class="nebula-code html"><strong><a class="vglnk" href="https://www.google.com/maps/dir/?api=1&amp;destination=${full_address}" target="_blank" rel="nofollow">Get Directions</a></strong></pre></h2></p>
 		
-        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=400x200&location=${full_address}&key=${apiKey}"></p>
+        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=320x200&location=${full_address}&key=${apiKey}"></p>
 		
 		
 		
@@ -366,7 +366,7 @@ var filterMarkers = function(category) {
       for (i = 0; i < gmarkers.length; i++) {
         marker = gmarkers[i];
         // If is same category or category not picked
-        if (4.6 <= marker.mag && marker.mag <= 4.5) {
+        if () {
           marker.setVisible(true);
         }
         // Categories don't match 
