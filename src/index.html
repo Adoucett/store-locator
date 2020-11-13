@@ -100,29 +100,24 @@
 
 </head>
 
-<body>
 
 
 <!-- Attempting to add filter to HTML-->
-  <div class="mapWrap">
- 
- 
-
+  <div class="mapWrap"></div>
 
 <h3 style="text-align: center; font-family:montserrat;">Filter by Type:</h3>
 <label class="container" onchange="filterMarkers(this.value);">
 
  <h3 style="text-align: center; font-family:montserrat;"><label class="container">🚲 Rentals <input type="checkbox" checked="checked" /> <span class="checkmark"></span></label><label class="container"></label>&nbsp;&nbsp;<label class="container">🛒 Sales <input type="checkbox" /> <span class="checkmark"></span>&nbsp;&nbsp;</label> <label class="container">🛠️ Service <input type="checkbox" /> <span class="checkmark"></span> </label></label></h3>
 
- </div>
   <!-- Attempting to add filter to HTML-->
 
-  <!-- The div to hold the map -->
-  <div id="map">
+    <!-- The div to hold the map -->
+  <div id="map"></div>
+
   <script src="app.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQQXo9MNHA3vlAPc7s8-LNLRb4kbNm-24&libraries=places&v=beta&map_ids=521e2f7e243e212c&callback=initMap">
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQQXo9MNHA3vlAPc7s8-LNLRb4kbNm-24&libraries=places&callback=initMap">
   </script>
-</div>
 </body>
 
 </html>
