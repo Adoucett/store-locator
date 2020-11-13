@@ -366,7 +366,7 @@ var filterMarkers = function(category) {
       for (i = 0; i < gmarkers.length; i++) {
         marker = gmarkers[i];
         // If is same category or category not picked
-        if () {
+        if {
           marker.setVisible(true);
         }
         // Categories don't match 
