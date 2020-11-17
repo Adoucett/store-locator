@@ -104,7 +104,7 @@ function initMap() {
 
 
   // Load the stores GeoJSON onto the map.
-  map.data.loadGeoJson('storesB.json', {idPropertyName: 'storeid'});
+  map.data.loadGeoJson('storesC.json', {idPropertyName: 'storeid'});
 
   // Define the custom marker icons, using the store's "category".
   map.data.setStyle((feature) => {
