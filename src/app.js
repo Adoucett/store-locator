@@ -212,7 +212,7 @@ function initMap() {
     originLocation = place.geometry.location;
     map.setCenter(originLocation);
     map.setZoom(14);
-    console.log(place);
+    console.log(full_address);
 
     originMarker.setPosition(originLocation);
     originMarker.setVisible(true);
