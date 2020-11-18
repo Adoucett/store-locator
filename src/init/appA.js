@@ -1,4 +1,19 @@
+/*
+ * Copyright 2017 Google Inc. All rights reserved.
+ *
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
+ * file except in compliance with the License. You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under
+ * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+ * ANY KIND, either express or implied. See the License for the specific language governing
+ * permissions and limitations under the License.
+ */
 
+// Style credit: https://snazzymaps.com/style/1/pale-dawn
 const mapStyle = [{
   'featureType': 'administrative',
   'elementType': 'all',
@@ -96,68 +111,49 @@ function sanitizeHTML(strings) {
 function initMap() {
   // Create the map.
   const map = new google.maps.Map(document.getElementById('map'), {
-    mapId: "521e2f7e243e212c",
-	zoom: 5.2,
-    center: {lat: 39.44, lng: -84.13}
-    // styles: mapStyle,
+    zoom: 7,
+    center: {lat: 52.632469, lng: -1.689423},
+    styles: mapStyle,
   });
 
-
   // Load the stores GeoJSON onto the map.
-  map.data.loadGeoJson('storesC.json', {idPropertyName: 'storeid'});
+  map.data.loadGeoJson('stores.json', {idPropertyName: 'storeid'});
 
   // Define the custom marker icons, using the store's "category".
   map.data.setStyle((feature) => {
     return {
       icon: {
         url: `img/icon_${feature.getProperty('category')}.png`,
-        scaledSize: new google.maps.Size(70, 70),
+        scaledSize: new google.maps.Size(64, 64),
       },
     };
   });
 
-  const apiKey = 'AIzaSyBQQXo9MNHA3vlAPc7s8-LNLRb4kbNm-24';
+  const apiKey = 'YOUR_API_KEY';
   const infoWindow = new google.maps.InfoWindow();
 
   // Show the information for a store when its marker is clicked.
   map.data.addListener('click', (event) => {
     const category = event.feature.getProperty('category');
     const name = event.feature.getProperty('name');
-    const city = event.feature.getProperty('city');
+    const description = event.feature.getProperty('description');
     const hours = event.feature.getProperty('hours');
     const phone = event.feature.getProperty('phone');
-	const curbside = event.feature.getProperty('curbside');
-	const full_address = event.feature.getProperty('full_address')
     const position = event.feature.getGeometry().get();
-	const address = event.feature.getProperty('address');
     const content = sanitizeHTML`
-      <img style="float:left; width:200px; margin-top:20px" src="img/logo_${category}.png">
+      <img style="float:left; width:200px; margin-top:30px" src="img/logo_${category}.png">
       <div style="margin-left:220px; margin-bottom:20px;">
-        <h2>${name}</h2><p>${full_address}</p>
+        <h2>${name}</h2><p>${description}</p>
         <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
-		<br/><b>Curbside Service Avalable?: </b> ${curbside}</p>
-		
-		<p><h2><pre class="nebula-code html"><strong><a class="vglnk" href="https://www.google.com/maps/dir/?api=1&amp;destination=${full_address}" target="_blank" rel="nofollow">Get Directions</a></strong></pre></h2></p>
-		
-        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=320x200&location=${full_address}&key=${apiKey}"></p>
-		
-		
-		
-	
-      </div>	
-	  
-	  
+        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=350x120&location=${position.lat()},${position.lng()}&key=${apiKey}"></p>
+      </div>
       `;
-	  
-	  //  ${position.lat()},${position.lng()}
-	  //  
 
     infoWindow.setContent(content);
     infoWindow.setPosition(position);
     infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
     infoWindow.open(map);
   });
-
 
   // Build and add the search bar
   const card = document.createElement('div');
@@ -166,8 +162,8 @@ function initMap() {
   const container = document.createElement('div');
   const input = document.createElement('input');
   const options = {
-    types: ['address'],			
-   // componentRestrictions: {country: 'usa'},
+    types: ['address'],
+    componentRestrictions: {country: 'gb'},
   };
 
   card.setAttribute('id', 'pac-card');
@@ -191,7 +187,7 @@ function initMap() {
   autocomplete.setFields(
       ['address_components', 'geometry', 'name']);
 
-// Set the origin point when the user selects an address
+  // Set the origin point when the user selects an address
   const originMarker = new google.maps.Marker({map: map});
   originMarker.setVisible(false);
   let originLocation = map.getCenter();
@@ -211,7 +207,7 @@ function initMap() {
     // Recenter the map to the selected address
     originLocation = place.geometry.location;
     map.setCenter(originLocation);
-    map.setZoom(10);
+    map.setZoom(9);
     console.log(place);
 
     originMarker.setPosition(originLocation);
@@ -248,7 +244,7 @@ async function calculateDistances(data, origin) {
     destinations.push(storeLoc);
   });
 
-   // Retrieve the distances of each store from the origin
+  // Retrieve the distances of each store from the origin
   // The returned list will be in the same order as the destinations list
   const service = new google.maps.DistanceMatrixService();
   const getDistanceMatrix =
@@ -341,11 +337,3 @@ function showStoresList(data, stores) {
 
   return;
 }
-
-
-
-
-
-////
-
-
