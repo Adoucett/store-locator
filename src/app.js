@@ -133,10 +133,10 @@ function initMap() {
     const city = event.feature.getProperty('city');
     const hours = event.feature.getProperty('hours');
     const phone = event.feature.getProperty('phone');
-	const curbside = event.feature.getProperty('curbside');
-	const full_address = event.feature.getProperty('full_address')
+    const curbside = event.feature.getProperty('curbside');
+    const full_address = event.feature.getProperty('full_address')
     const position = event.feature.getGeometry().get();
-	const address = event.feature.getProperty('address');
+    const address = event.feature.getProperty('address');
     const content = sanitizeHTML`
       <img style="float:left; width:200px; margin-top:20px" src="img/logo_${category}.png">
       <div style="margin-left:220px; margin-bottom:20px;">
@@ -219,7 +219,7 @@ function initMap() {
     originLocation = place.geometry.location;
     map.setCenter(originLocation);
     map.setZoom(14);
-    console.log(full_address);
+    console.log('full_address');
 
     originMarker.setPosition(originLocation);
     originMarker.setVisible(true);
