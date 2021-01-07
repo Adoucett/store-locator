@@ -1,641 +1,605 @@
 {
-    "type": "FeatureCollection",
-    "features": [{
-        "type": "Feature",
-        "properties": {
-            "storeid": 41,
-            "list_name": "REI",
-            "name": "Framingham store",
-            "address": "375 Cochituate Rd",
-            "city": "Framingham",
-            "state": "MA",
-            "zip_code": "01701",
-            "full_address": "375 Cochituate Rd, Framingham MA, 1701",
-            "latitude": "42.3054074",
-            "longitude": "-71.3936633",
-            "phone": "(508) 270-6325",
-            "latitude_roof": "42.305342",
-            "longitude_roof": "-71.393716",
-            "category": "Retail",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
-            "curbside": "Yes",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.135097, 42.449431]
-        },
-        "id": "b1ca65cf-3901-4a93-ad2f-eeffe37d6d0c"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": 15,
-            "list_name": "REI",
-            "name": "Reading store",
-            "address": "279 Salem St",
-            "city": "Reading",
-            "state": "MA",
-            "zip_code": "01867",
-            "full_address": "279 Salem St, Reading MA, 1867",
-            "latitude": "42.5255701",
-            "longitude": "-71.0870109",
-            "phone": "(781) 944-5103",
-            "latitude_roof": "42.5255541",
-            "longitude_roof": "-71.0870054",
-            "category": "Retail",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
-            "curbside": "Yes"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.087011, 42.52557]
-        },
-        "id": "06f80431-cedc-4d30-8969-512875acba88"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "63",
-            "list_name": "REI",
-            "name": "Boston store",
-            "address": "401 Park Dr",
-            "city": "Boston",
-            "state": "MA",
-            "zip_code": "02215",
-            "full_address": "401 Park Dr, Boston MA, 2215",
-            "latitude": "42.3448472",
-            "longitude": "-71.1023307",
-            "phone": "(617) 236-0746",
-            "latitude_roof": "42.3446671",
-            "longitude_roof": "-71.1023575",
-            "category": "Retail",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 8pm Sunday 11am - 6pm",
-            "curbside": "Yes",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.082927, 42.350295]
-        },
-        "id": "a0411c95-935a-4e23-bb7f-aab69f79b795"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "90",
-            "list_name": "REI",
-            "name": "Cranston store",
-            "address": "22 Chapel View Blvd",
-            "city": "Cranston",
-            "state": "RI",
-            "zip_code": "02920",
-            "full_address": "22 Chapel View Blvd, Cranston RI, 2920",
-            "latitude": "41.7544766",
-            "longitude": "-71.4608098",
-            "phone": "(401) 275-5250",
-            "latitude_roof": "41.755235",
-            "longitude_roof": "-71.459434",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 8pm Sunday 11am - 6pm",
-            "curbside": "Yes"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.46081, 41.754477]
-        },
-        "id": "460967dc-6635-4872-b031-7ed5f53736e1"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": 85,
-            "list_name": "REI",
-            "name": "West Hartford store",
-            "address": "71 Raymond Road",
-            "city": "West Hartford",
-            "state": "CT",
-            "zip_code": "06107",
-            "full_address": "71 Raymond Road, West Hartford CT, 6107",
-            "latitude": "41.7602461",
-            "longitude": "-72.7399176",
-            "phone": "(860) 233-2211",
-            "latitude_roof": "41.7601543",
-            "longitude_roof": "-72.7392278",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
-            "curbside": "Yes"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-72.739918, 41.760246]
-        },
-        "id": "b0c3e296-a585-46b6-a7e0-e279f66bb9d8"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "148",
-            "list_name": "REI",
-            "name": "Milford store",
-            "address": "1587 Boston Post Rd",
-            "city": "Milford",
-            "state": "CT",
-            "zip_code": "06460",
-            "full_address": "1587 Boston Post Rd, Milford CT, 6460",
-            "latitude": "41.2455467",
-            "longitude": "-73.0264148",
-            "phone": "(203) 783-0945",
-            "latitude_roof": "41.2457765",
-            "longitude_roof": "-73.0273788",
-            "category": "Retail",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 6pm",
-            "curbside": "Weekends Only"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-73.026415, 41.245547]
-        },
-        "id": "c53bfd20-8b3e-416e-9183-bed1ec95392b"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "117",
-            "list_name": "REI",
-            "name": "Paramus store",
-            "address": "2200 Bergen Town Center",
-            "city": "Paramus",
-            "state": "NJ",
-            "zip_code": "07652",
-            "full_address": "2200 Bergen Town Center, Paramus NJ, 7652",
-            "latitude": "40.9140268",
-            "longitude": "-74.0552119",
-            "phone": "(201) 226-1560",
-            "latitude_roof": "40.915099",
-            "longitude_roof": "-74.0598207",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9:30pm Saturday 10am - 9:30pm Sunday Closed",
-            "curbside": "Weekends Only",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.043624, 42.348265]
-        },
-        "id": "c25489a6-24b9-417a-8d64-584ea30ae620"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "110",
-            "list_name": "REI",
-            "name": "East Hanover store",
-            "address": "280 NJ-10",
-            "city": "East Hanover",
-            "state": "NJ",
-            "zip_code": "07936",
-            "full_address": "280 NJ-10, East Hanover NJ, 7936",
-            "latitude": "40.8064145",
-            "longitude": "-74.369469",
-            "phone": "(973) 581-1938",
-            "latitude_roof": "40.8058921",
-            "longitude_roof": "-74.3695009",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 7pm",
-            "curbside": "Weekends Only"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-74.369469, 40.806415]
-        },
-        "id": "7398ded7-14f3-4dee-bc7a-a90d249e9cf2"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "77",
-            "list_name": "REI",
-            "name": "Marlton store",
-            "address": "501 Rte 73 South",
-            "city": "Marlton",
-            "state": "NJ",
-            "zip_code": "08053",
-            "full_address": "501 Rte 73 South, Marlton NJ, 8053",
-            "latitude": "39.8796461",
-            "longitude": "-74.9231607",
-            "phone": "(856) 810-1938",
-            "latitude_roof": "39.8801005",
-            "longitude_roof": "-74.9231768",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 6pm",
-            "curbside": "Weekends Only",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.116905, 42.394559]
-        },
-        "id": "6b66f3da-dcad-4ab8-a9c2-eb7c43100f0d"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "138",
-            "list_name": "REI",
-            "name": "Princeton store",
-            "address": "3371 US Highway 1",
-            "city": "Lawrenceville",
-            "state": "NJ",
-            "zip_code": "08648",
-            "full_address": "3371 US Highway 1, Lawrenceville NJ, 8648",
-            "latitude": "40.2984867",
-            "longitude": "-74.6847091",
-            "phone": "(609) 750-1938",
-            "latitude_roof": "40.297732",
-            "longitude_roof": "-74.685772",
-            "category": "Retail",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 7pm",
-            "curbside": "Weekends Only",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.117918, 42.331512]
-        },
-        "id": "458c6927-37f9-401c-bc7e-768ccf68a156"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "119",
-            "list_name": "REI",
-            "name": "SoHo flagship store",
-            "address": "303 Lafayette St",
-            "city": "New York",
-            "state": "NY",
-            "zip_code": "10012",
-            "full_address": "303 Lafayette St, New York NY, 10012",
-            "latitude": "40.7248439",
-            "longitude": "-73.9952165",
-            "phone": "(212) 680-1938",
-            "latitude_roof": "40.7248439",
-            "longitude_roof": "-73.9952165",
-            "category": "Retail",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 8pm",
-            "curbside": "Weekends Only",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.079318, 42.388606]
-        },
-        "id": "4c79c638-3377-41fd-94a8-536c39dba1a1"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "116",
-            "list_name": "REI",
-            "name": "Yonkers store",
-            "address": "49 Fitzgerald St",
-            "city": "Yonkers",
-            "state": "NY",
-            "zip_code": "10710",
-            "full_address": "49 Fitzgerald St, Yonkers NY, 10710",
-            "latitude": "40.9662479",
-            "longitude": "-73.8567337",
-            "phone": "(914) 410-9500",
-            "latitude_roof": "40.9662479",
-            "longitude_roof": "-73.8567337",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9:30pm Saturday 10am - 9:30pm Sunday 11am - 7pm",
-            "curbside": "Yes"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-73.856734, 40.966248]
-        },
-        "id": "43ef0bc6-6dcf-4123-8848-55866fbfd31f"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "115",
-            "list_name": "REI",
-            "name": "Carle Place store",
-            "address": "144 Glen Cove Rd",
-            "city": "Carle Place",
-            "state": "NY",
-            "zip_code": "11514",
-            "full_address": "144 Glen Cove Rd, Carle Place NY, 11514",
-            "latitude": "40.7442196",
-            "longitude": "-73.617838",
-            "phone": "(516) 873-8540",
-            "latitude_roof": "40.7441712",
-            "longitude_roof": "-73.6178769",
-            "category": "Retail",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
-            "curbside": "Yes",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.052703, 42.361095]
-        },
-        "id": "3f4e88ea-f304-4cb1-850e-c3c15c11d1ae"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "81",
-            "list_name": "REI",
-            "name": "Pittsburgh store",
-            "address": "412 S 27th St",
-            "city": "Pittsburgh",
-            "state": "PA",
-            "zip_code": "15203",
-            "full_address": "412 S 27th St, Pittsburgh PA, 15203",
-            "latitude": "40.4286166",
-            "longitude": "-79.9659131",
-            "phone": "(412) 488-9410",
-            "latitude_roof": "40.4286076",
-            "longitude_roof": "-79.9660099",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 9am - 9pm Sunday 11am - 6pm",
-            "curbside": "Yes"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-79.965913, 40.428617]
-        },
-        "id": "5c8cf4c1-1af2-44e7-8f4f-97140336752b"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "144",
-            "list_name": "REI",
-            "name": "Washington DC flagship store",
-            "address": "201 M Street NE",
-            "city": "Washington",
-            "state": "DC",
-            "zip_code": "20002",
-            "full_address": "201 M Street NE, Washington DC, 20002",
-            "latitude": "38.9052422",
-            "longitude": "-77.002596",
-            "phone": "(202) 543-2040",
-            "latitude_roof": "38.9049817",
-            "longitude_roof": "-77.0029318",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
-            "curbside": "Yes",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-70.008907, 43.386565]
-        },
-        "id": "6a3bdd87-5712-41f8-b87b-f13995a118b2"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "74",
-            "list_name": "REI",
-            "name": "Rockville store",
-            "address": "910 Rose Avenue",
-            "city": "North Bethesda",
-            "state": "MD",
-            "zip_code": "20852",
-            "full_address": "910 Rose Avenue, North Bethesda MD, 20852",
-            "latitude": "39.0508142",
-            "longitude": "-77.1158864",
-            "phone": "(301) 770-1751",
-            "latitude_roof": "39.0508519",
-            "longitude_roof": "-77.1159286",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
-            "curbside": "Yes",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.282663, 43.354731]
-        },
-        "id": "f9a37b23-a1cd-4388-8280-76f076bd1325"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "67",
-            "list_name": "REI",
-            "name": "Fairfax store",
-            "address": "11950 Grand Commons Ave",
-            "city": "Fairfax",
-            "state": "VA",
-            "zip_code": "22030",
-            "full_address": "11950 Grand Commons Ave, Fairfax VA, 22030",
-            "latitude": "38.858033",
-            "longitude": "-77.3583769",
-            "phone": "(571) 522-6568",
-            "latitude_roof": "38.8580001",
-            "longitude_roof": "-77.358343",
-            "category": "Retail",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
-            "curbside": "Yes",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.069861, 42.248328]
-        },
-        "id": "d2cb97f4-ad58-4e18-a2dd-e4a936e92e34"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "20",
-            "list_name": "REI",
-            "name": "Baileys Crossroads store",
-            "address": "3509 Carlin Springs Rd",
-            "city": "Bailey's Crossroads",
-            "state": "VA",
-            "zip_code": "22041",
-            "full_address": "3509 Carlin Springs Rd, Bailey's Crossroads VA, 22041",
-            "latitude": "38.848845",
-            "longitude": "-77.1232581",
-            "phone": "(703) 379-9400",
-            "latitude_roof": "38.8488544",
-            "longitude_roof": "-77.1231968",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
-            "curbside": "Yes",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.322179, 42.519986]
-        },
-        "id": "a329e9ee-855a-48f7-a73d-ca4057fcdfdd"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "121",
-            "list_name": "REI",
-            "name": "Woodbridge store",
-            "address": "15200 Potomac Town Place",
-            "city": "Woodbridge",
-            "state": "VA",
-            "zip_code": "22191",
-            "full_address": "15200 Potomac Town Place, Woodbridge VA, 22191",
-            "latitude": "38.6273638",
-            "longitude": "-77.2878345",
-            "phone": "(703) 583-1938",
-            "latitude_roof": "38.6272528",
-            "longitude_roof": "-77.2876185",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
-            "curbside": "Yes",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.105581, 42.365905]
-        },
-        "id": "f63b060d-2afa-4a0d-a1d9-e87921342e55"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "104",
-            "list_name": "REI",
-            "name": "Richmond store",
-            "address": "2020 Old Brick Rd",
-            "city": "Glen Allen",
-            "state": "VA",
-            "zip_code": "23060",
-            "full_address": "2020 Old Brick Rd, Glen Allen VA, 23060",
-            "latitude": "37.6480274",
-            "longitude": "-77.5971329",
-            "phone": "(804) 360-1381",
-            "latitude_roof": "37.647994",
-            "longitude_roof": "-77.597209",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
-            "curbside": "Yes",
-            "shape": "Marker"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-71.167386, 42.240211]
-        },
-        "id": "da144525-67d8-4058-ae39-c5d3c4e4c9cc"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "80",
-            "list_name": "REI",
-            "name": "Raleigh store",
-            "address": "4291 The Circle at North Hills",
-            "city": "Raleigh",
-            "state": "NC",
-            "zip_code": "27609",
-            "full_address": "4291 The Circle at North Hills, Raleigh NC, 27609",
-            "latitude": "35.8373158",
-            "longitude": "-78.6422434",
-            "phone": "(919) 571-5031",
-            "latitude_roof": "35.8374387",
-            "longitude_roof": "-78.64218",
-            "category": "Retail",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
-            "curbside": "Yes"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-78.642243, 35.837316]
-        },
-        "id": "eea7e22d-14cf-4452-bf15-a47236259f00"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "68",
-            "list_name": "REI",
-            "name": "Durham store",
-            "address": "6911 Fayetteville Rd",
-            "city": "Durham",
-            "state": "NC",
-            "zip_code": "27713",
-            "full_address": "6911 Fayetteville Rd, Durham NC, 27713",
-            "latitude": "35.9031332",
-            "longitude": "-78.935984",
-            "phone": "(919) 806-3442",
-            "latitude_roof": "35.9031918",
-            "longitude_roof": "-78.9360895",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
-            "curbside": "Yes"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-78.935984, 35.903133]
-        },
-        "id": "2e6bfb07-620e-47f3-a324-b40b2c4be71e"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "131",
-            "list_name": "REI",
-            "name": "Columbus-Easton store",
-            "address": "4150 Worth Ave",
-            "city": "Columbus",
-            "state": "OH",
-            "zip_code": "43219",
-            "full_address": "4150 Worth Ave, Columbus OH, 43219",
-            "latitude": "40.0554045",
-            "longitude": "-82.9081764",
-            "phone": "(614) 475-1938",
-            "latitude_roof": "40.055524",
-            "longitude_roof": "-82.9077214",
-            "category": "Sporting Goods",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
-            "curbside": "Weekends Only"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-82.908176, 40.055405]
-        },
-        "id": "00d2f8e5-e8c9-4321-8464-4c20d335da5b"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "storeid": "135",
-            "list_name": "REI",
-            "name": "Columbus-Dublin store",
-            "address": "6424 Sawmill Road",
-            "city": "Columbus",
-            "state": "OH",
-            "zip_code": "43235",
-            "full_address": "6424 Sawmill Road, Columbus OH, 43235",
-            "latitude": "40.0987015",
-            "longitude": "-83.0902988",
-            "phone": "(614) 799-1938",
-            "latitude_roof": "40.0987015",
-            "longitude_roof": "-83.0902988",
-            "category": "Retail",
-            "country": "United States",
-            "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 6pm",
-            "curbside": "Weekends Only"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-83.090299, 40.098701]
-        },
-        "id": "655ff72d-fd53-42c8-9fb6-216df3e36d1e"
-    }]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": 41,
+        "list_name": "REI",
+        "name": "Framingham store",
+        "address": "375 Cochituate Rd",
+        "city": "Framingham",
+        "state": "MA",
+        "zip_code": "01701",
+        "full_address": "375 Cochituate Rd, Framingham MA, 1701",
+        "latitude": "42.3054074",
+        "longitude": "-71.3936633",
+        "phone": "(508) 270-6325",
+        "latitude_roof": "42.305342",
+        "longitude_roof": "-71.393716",
+        "category": "Retail",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.135097,
+          42.449431
+        ]
+      },
+      "id": "b1ca65cf-3901-4a93-ad2f-eeffe37d6d0c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": 15,
+        "list_name": "REI",
+        "name": "Reading store",
+        "address": "279 Salem St",
+        "city": "Reading",
+        "state": "MA",
+        "zip_code": "01867",
+        "full_address": "279 Salem St, Reading MA, 1867",
+        "latitude": "42.5255701",
+        "longitude": "-71.0870109",
+        "phone": "(781) 944-5103",
+        "latitude_roof": "42.5255541",
+        "longitude_roof": "-71.0870054",
+        "category": "Retail",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087011,
+          42.52557
+        ]
+      },
+      "id": "06f80431-cedc-4d30-8969-512875acba88"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "63",
+        "list_name": "REI",
+        "name": "Boston store",
+        "address": "401 Park Dr",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02215",
+        "full_address": "401 Park Dr, Boston MA, 2215",
+        "latitude": "42.3448472",
+        "longitude": "-71.1023307",
+        "phone": "(617) 236-0746",
+        "latitude_roof": "42.3446671",
+        "longitude_roof": "-71.1023575",
+        "category": "Retail",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 8pm Sunday 11am - 6pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.082927,
+          42.350295
+        ]
+      },
+      "id": "a0411c95-935a-4e23-bb7f-aab69f79b795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "90",
+        "list_name": "REI",
+        "name": "Cranston store",
+        "address": "22 Chapel View Blvd",
+        "city": "Cranston",
+        "state": "RI",
+        "zip_code": "02920",
+        "full_address": "22 Chapel View Blvd, Cranston RI, 2920",
+        "latitude": "41.7544766",
+        "longitude": "-71.4608098",
+        "phone": "(401) 275-5250",
+        "latitude_roof": "41.755235",
+        "longitude_roof": "-71.459434",
+        "category": "Sporting Goods",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 8pm Sunday 11am - 6pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.46081,
+          41.754477
+        ]
+      },
+      "id": "460967dc-6635-4872-b031-7ed5f53736e1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": 85,
+        "list_name": "REI",
+        "name": "West Hartford store",
+        "address": "71 Raymond Road",
+        "city": "West Hartford",
+        "state": "CT",
+        "zip_code": "06107",
+        "full_address": "71 Raymond Road, West Hartford CT, 6107",
+        "latitude": "41.7602461",
+        "longitude": "-72.7399176",
+        "phone": "(860) 233-2211",
+        "latitude_roof": "41.7601543",
+        "longitude_roof": "-72.7392278",
+        "category": "Sporting Goods",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.739918,
+          41.760246
+        ]
+      },
+      "id": "b0c3e296-a585-46b6-a7e0-e279f66bb9d8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "148",
+        "list_name": "REI",
+        "name": "Milford store",
+        "address": "1587 Boston Post Rd",
+        "city": "Milford",
+        "state": "CT",
+        "zip_code": "06460",
+        "full_address": "1587 Boston Post Rd, Milford CT, 6460",
+        "latitude": "41.2455467",
+        "longitude": "-73.0264148",
+        "phone": "(203) 783-0945",
+        "latitude_roof": "41.2457765",
+        "longitude_roof": "-73.0273788",
+        "category": "Retail",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 6pm",
+        "curbside": "Weekends Only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.026415,
+          41.245547
+        ]
+      },
+      "id": "c53bfd20-8b3e-416e-9183-bed1ec95392b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "117",
+        "list_name": "REI",
+        "name": "Paramus store",
+        "address": "2200 Bergen Town Center",
+        "city": "Paramus",
+        "state": "NJ",
+        "zip_code": "07652",
+        "full_address": "2200 Bergen Town Center, Paramus NJ, 7652",
+        "latitude": "40.9140268",
+        "longitude": "-74.0552119",
+        "phone": "(201) 226-1560",
+        "latitude_roof": "40.915099",
+        "longitude_roof": "-74.0598207",
+        "category": "Sporting Goods",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9:30pm Saturday 10am - 9:30pm Sunday Closed",
+        "curbside": "Weekends Only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.043624,
+          42.348265
+        ]
+      },
+      "id": "c25489a6-24b9-417a-8d64-584ea30ae620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "110",
+        "list_name": "REI",
+        "name": "East Hanover store",
+        "address": "280 NJ-10",
+        "city": "East Hanover",
+        "state": "NJ",
+        "zip_code": "07936",
+        "full_address": "280 NJ-10, East Hanover NJ, 7936",
+        "latitude": "40.8064145",
+        "longitude": "-74.369469",
+        "phone": "(973) 581-1938",
+        "latitude_roof": "40.8058921",
+        "longitude_roof": "-74.3695009",
+        "category": "Sporting Goods",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 7pm",
+        "curbside": "Weekends Only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.369469,
+          40.806415
+        ]
+      },
+      "id": "7398ded7-14f3-4dee-bc7a-a90d249e9cf2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "77",
+        "list_name": "REI",
+        "name": "Marlton store",
+        "address": "501 Rte 73 South",
+        "city": "Marlton",
+        "state": "NJ",
+        "zip_code": "08053",
+        "full_address": "501 Rte 73 South, Marlton NJ, 8053",
+        "latitude": "39.8796461",
+        "longitude": "-74.9231607",
+        "phone": "(856) 810-1938",
+        "latitude_roof": "39.8801005",
+        "longitude_roof": "-74.9231768",
+        "category": "Sporting Goods",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 6pm",
+        "curbside": "Weekends Only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.116905,
+          42.394559
+        ]
+      },
+      "id": "6b66f3da-dcad-4ab8-a9c2-eb7c43100f0d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": 138,
+        "list_name": "REI",
+        "name": "Princeton store",
+        "address": "3371 US Highway 1",
+        "city": "Lawrenceville",
+        "state": "NJ",
+        "zip_code": "08648",
+        "full_address": "3371 US Highway 1, Lawrenceville NJ, 8648",
+        "latitude": "40.2984867",
+        "longitude": "-74.6847091",
+        "phone": "(609) 750-1938",
+        "latitude_roof": "40.297732",
+        "longitude_roof": "-74.685772",
+        "category": "Retail",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 10am - 7pm",
+        "curbside": "Weekends Only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.117918,
+          42.331512
+        ]
+      },
+      "id": "458c6927-37f9-401c-bc7e-768ccf68a156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "119",
+        "list_name": "REI",
+        "name": "SoHo flagship store",
+        "address": "303 Lafayette St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10012",
+        "full_address": "303 Lafayette St, New York NY, 10012",
+        "latitude": "40.7248439",
+        "longitude": "-73.9952165",
+        "phone": "(212) 680-1938",
+        "latitude_roof": "40.7248439",
+        "longitude_roof": "-73.9952165",
+        "category": "Retail",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 8pm",
+        "curbside": "Weekends Only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.079318,
+          42.388606
+        ]
+      },
+      "id": "4c79c638-3377-41fd-94a8-536c39dba1a1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "116",
+        "list_name": "REI",
+        "name": "Yonkers store",
+        "address": "49 Fitzgerald St",
+        "city": "Yonkers",
+        "state": "NY",
+        "zip_code": "10710",
+        "full_address": "49 Fitzgerald St, Yonkers NY, 10710",
+        "latitude": "40.9662479",
+        "longitude": "-73.8567337",
+        "phone": "(914) 410-9500",
+        "latitude_roof": "40.9662479",
+        "longitude_roof": "-73.8567337",
+        "category": "Sporting Goods",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9:30pm Saturday 10am - 9:30pm Sunday 11am - 7pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.856734,
+          40.966248
+        ]
+      },
+      "id": "43ef0bc6-6dcf-4123-8848-55866fbfd31f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "115",
+        "list_name": "REI",
+        "name": "Carle Place store",
+        "address": "144 Glen Cove Rd",
+        "city": "Carle Place",
+        "state": "NY",
+        "zip_code": "11514",
+        "full_address": "144 Glen Cove Rd, Carle Place NY, 11514",
+        "latitude": "40.7442196",
+        "longitude": "-73.617838",
+        "phone": "(516) 873-8540",
+        "latitude_roof": "40.7441712",
+        "longitude_roof": "-73.6178769",
+        "category": "Retail",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.052703,
+          42.361095
+        ]
+      },
+      "id": "3f4e88ea-f304-4cb1-850e-c3c15c11d1ae"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "74",
+        "list_name": "REI",
+        "name": "Rockville store",
+        "address": "910 Rose Avenue",
+        "city": "North Bethesda",
+        "state": "MD",
+        "zip_code": "20852",
+        "full_address": "910 Rose Avenue, North Bethesda MD, 20852",
+        "latitude": "39.0508142",
+        "longitude": "-77.1158864",
+        "phone": "(301) 770-1751",
+        "latitude_roof": "39.0508519",
+        "longitude_roof": "-77.1159286",
+        "category": "Sporting Goods",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.282663,
+          43.354731
+        ]
+      },
+      "id": "f9a37b23-a1cd-4388-8280-76f076bd1325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "67",
+        "list_name": "REI",
+        "name": "Fairfax store",
+        "address": "11950 Grand Commons Ave",
+        "city": "Fairfax",
+        "state": "VA",
+        "zip_code": "22030",
+        "full_address": "11950 Grand Commons Ave, Fairfax VA, 22030",
+        "latitude": "38.858033",
+        "longitude": "-77.3583769",
+        "phone": "(571) 522-6568",
+        "latitude_roof": "38.8580001",
+        "longitude_roof": "-77.358343",
+        "category": "Retail",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.069861,
+          42.248328
+        ]
+      },
+      "id": "d2cb97f4-ad58-4e18-a2dd-e4a936e92e34"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "20",
+        "list_name": "REI",
+        "name": "Baileys Crossroads store",
+        "address": "3509 Carlin Springs Rd",
+        "city": "Bailey's Crossroads",
+        "state": "VA",
+        "zip_code": "22041",
+        "full_address": "3509 Carlin Springs Rd, Bailey's Crossroads VA, 22041",
+        "latitude": "38.848845",
+        "longitude": "-77.1232581",
+        "phone": "(703) 379-9400",
+        "latitude_roof": "38.8488544",
+        "longitude_roof": "-77.1231968",
+        "category": "Sporting Goods",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.322179,
+          42.519986
+        ]
+      },
+      "id": "a329e9ee-855a-48f7-a73d-ca4057fcdfdd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "121",
+        "list_name": "REI",
+        "name": "Woodbridge store",
+        "address": "15200 Potomac Town Place",
+        "city": "Woodbridge",
+        "state": "VA",
+        "zip_code": "22191",
+        "full_address": "15200 Potomac Town Place, Woodbridge VA, 22191",
+        "latitude": "38.6273638",
+        "longitude": "-77.2878345",
+        "phone": "(703) 583-1938",
+        "latitude_roof": "38.6272528",
+        "longitude_roof": "-77.2876185",
+        "category": "Sporting Goods",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.105581,
+          42.365905
+        ]
+      },
+      "id": "f63b060d-2afa-4a0d-a1d9-e87921342e55"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "104",
+        "list_name": "REI",
+        "name": "Richmond store",
+        "address": "2020 Old Brick Rd",
+        "city": "Glen Allen",
+        "state": "VA",
+        "zip_code": "23060",
+        "full_address": "2020 Old Brick Rd, Glen Allen VA, 23060",
+        "latitude": "37.6480274",
+        "longitude": "-77.5971329",
+        "phone": "(804) 360-1381",
+        "latitude_roof": "37.647994",
+        "longitude_roof": "-77.597209",
+        "category": "Sporting Goods",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 7pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.167386,
+          42.240211
+        ]
+      },
+      "id": "da144525-67d8-4058-ae39-c5d3c4e4c9cc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "80",
+        "list_name": "REI",
+        "name": "Raleigh store",
+        "address": "4291 The Circle at North Hills",
+        "city": "Raleigh",
+        "state": "NC",
+        "zip_code": "27609",
+        "full_address": "4291 The Circle at North Hills, Raleigh NC, 27609",
+        "latitude": "35.8373158",
+        "longitude": "-78.6422434",
+        "phone": "(919) 571-5031",
+        "latitude_roof": "35.8374387",
+        "longitude_roof": "-78.64218",
+        "category": "Retail",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.642243,
+          35.837316
+        ]
+      },
+      "id": "eea7e22d-14cf-4452-bf15-a47236259f00"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "storeid": "68",
+        "list_name": "REI",
+        "name": "Durham store",
+        "address": "6911 Fayetteville Rd",
+        "city": "Durham",
+        "state": "NC",
+        "zip_code": "27713",
+        "full_address": "6911 Fayetteville Rd, Durham NC, 27713",
+        "latitude": "35.9031332",
+        "longitude": "-78.935984",
+        "phone": "(919) 806-3442",
+        "latitude_roof": "35.9031918",
+        "longitude_roof": "-78.9360895",
+        "category": "Sporting Goods",
+        "country": "United States",
+        "hours": "Monday - Friday 10am - 9pm Saturday 10am - 9pm Sunday 11am - 6pm",
+        "curbside": "Yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.935984,
+          35.903133
+        ]
+      },
+      "id": "2e6bfb07-620e-47f3-a324-b40b2c4be71e"
+    }
+  ]
 }
