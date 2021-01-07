@@ -98,7 +98,14 @@ function initMap() {
   const map = new google.maps.Map(document.getElementById('map'), {
     mapId: "521e2f7e243e212c",
 	zoom: 5.2,
-    center: {lat: 39.44, lng: -84.13}
+        center: {lat: 39.44, lng: -84.13},
+	options: {
+    gestureHandling: 'greedy'
+  }  
+	  
+	  
+	  
+	  
     // styles: mapStyle,
   });
 
