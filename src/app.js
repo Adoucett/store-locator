@@ -289,14 +289,6 @@ async function calculateDistances(data, origin) {
   return distancesList;
 }
 
-
-**
- * Build the content of the side panel from the sorted list of stores
- * and display it.
- * @param {google.maps.Data} data The geospatial data object layer for the map
- * @param {object[]} stores An array of objects with a distanceText,
- * distanceVal, and storeid property.
- */
 function showStoresList(data, stores) {
   if (stores.length == 0) {
     console.log('empty stores');
