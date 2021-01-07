@@ -255,7 +255,7 @@ async function calculateDistances(data, origin) {
     destinations.push(storeLoc);
   });
 
-   // Retrieve the distances of each store from the origin
+  // Retrieve the distances of each store from the origin
   // The returned list will be in the same order as the destinations list
   const service = new google.maps.DistanceMatrixService();
   const getDistanceMatrix =
@@ -297,7 +297,8 @@ async function calculateDistances(data, origin) {
   return distancesList;
 }
 
-/**
+
+**
  * Build the content of the side panel from the sorted list of stores
  * and display it.
  * @param {google.maps.Data} data The geospatial data object layer for the map
@@ -348,11 +349,3 @@ function showStoresList(data, stores) {
 
   return;
 }
-
-
-
-
-
-////
-
-
