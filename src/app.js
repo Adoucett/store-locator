@@ -233,15 +233,7 @@ function initMap() {
   });
 }
 
-/**
- * Use Distance Matrix API to calculate distance from origin to each store.
- * @param {google.maps.Data} data The geospatial data object layer for the map
- * @param {google.maps.LatLng} origin Geographical coordinates in latitude
- * and longitude
- * @return {Promise<object[]>} n Promise fulfilled by an array of objects with
- * a distanceText, distanceVal, and storeid property, sorted ascending
- * by distanceVal.
- */
+
 async function calculateDistances(data, origin) {
   const stores = [];
   const destinations = [];
